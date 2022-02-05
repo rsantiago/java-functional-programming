@@ -1,4 +1,4 @@
-package modules.a.foundations.a.lambdas.howToUseLambdas;
+package modules.a.foundations.a.lambdas.how.to.use.lambdas;
 
 @FunctionalInterface // this makes sure the class will have only one method
 public interface MyFunctionalInterface {

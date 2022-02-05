@@ -1,4 +1,4 @@
-package modules.a.foundations.a.lambdas.imperativeVsDeclarative;
+package modules.a.foundations.a.lambdas.imperative.vs.declarative;
 
 import java.util.stream.IntStream;
 

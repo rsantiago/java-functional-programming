@@ -1,4 +1,4 @@
-package modules.a.foundations.a.lambdas.howToUseLambdas;
+package modules.a.foundations.a.lambdas.how.to.use.lambdas;
 
 public class HowToUseALambda {
     public static void main(String[] args) {
