@@ -2,13 +2,16 @@
 
 - Facilitates iterations and a series of **piped operations** on any data source
 - **Streams are LAZY**: each item goes through all the pipeline before the next item is processed.
-- Operations:
-  - Filtering
-  - Mapping to other object types and data structures
-  - Peeking (using) the objects in some way
-  - Reducing to a simpler data structure
-  - Extracting a stream from an element (flatmaps, see bellow)
-  - Collecting the results
+- **Operations**:
+  - Intermediate Operations - for straem processing along a pipeline
+    - Filtering - checks if a stream should forward an element based on an if condition
+    - Mapping - to other object types and data structures
+    - Peeking (using) the objects in some way and forward to the next step in the stream pipeline
+    - Extracting a stream from an element (flatmaps, see bellow)
+  - Terminal Operations - Things we do at the end of a stream
+    - Reducing to a simpler data structure (or container)
+    - Collecting the results
+    - forEach() - Using the elements in some way
 - **Declarative**: Allows to just tell what to do in a clear way
 - **Flexible**: the operations can be rearranged easily with no side effects
 - **Parallelizable**: you can create concurring threads with no effort - calling parallel() on a Stream object

@@ -1,12 +1,13 @@
 # Spliterator Interface
 
 - Use it when you want to create a Stream from a custom source
+- Use StreamSupport.stream(mySpliterator) to get a stream from a spliterator
 
 ## Methods
 - characteristics() - returns an ORed value of all the stream characteristics in this spilterator (see values bellow)
 - tryAdvance() - It tries to create an instance of the particular object you are trying to produce with a custom stream
 - trySplit() - It tries to create parallel streams from your stream
-- 
+
 ### Spliterator Characteristics
 Used to characterize the state of the stream
 

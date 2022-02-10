@@ -1,0 +1,8 @@
+Vancouver;615,218;Canada;North America
+Paraíba;800,000;Brazil;South America
+Rio de Janeiro;7,000,000;Brazil;South America
+Gold Coast;540,000;Australia;Oceania
+Shanghai;26,320,000;China;Asia
+Auckland;1,000,000;New Zealand;Oceania
+Madrid;3,223,000;Spain;Europe
+London;8,982,000;England;Europe
