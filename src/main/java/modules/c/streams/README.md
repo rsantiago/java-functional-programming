@@ -51,6 +51,7 @@ Remember, higher order functions are those that takes 1+ functions as arguments,
 - **map()** - Maps an object into another objet in the stream.
 - **reduce()** - Helps to project a whole stream into a single variable (sums, averages etc)
 - **flatMap()** - Helps iterating over a stream created from a stream object (see bellow)
+- **forEach()** - Helps consuming a list of objects as a terminal operation
 
 ---
 
